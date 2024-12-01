@@ -38,8 +38,8 @@ AICapture è un programma che si installa nella barra delle applicazioni di Wind
 Per utilizzare il programma, è necessario configurare le seguenti variabili nel file CTXdesktop.ini:
 
 *   `#LLM_modelPath`: C:\<percorso modello GGUF>\<nome modello GGUF>.gguf
-*   `#LLM_appPrompt1`: <nome pulsante1>|<prompt pulsante (SYSTEM)>|<testo assistente (ASSISTANT)>
-*   `#LLM_appPrompt2`: <nome pulsante2>|<prompt pulsante (SYSTEM)>|<testo assistente (ASSISTANT)>
+*   `#LLM_appPrompt1`: < nome pulsante1 >|< prompt pulsante (SYSTEM) >|< testo assistente (ASSISTANT) >
+*   `#LLM_appPrompt2`: < nome pulsante2 >|< prompt pulsante (SYSTEM) >|< testo assistente (ASSISTANT) >
 *   `....`: ........
 
 ```ini
