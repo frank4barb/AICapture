@@ -25,7 +25,7 @@ AICapture è un programma che si installa nella barra delle applicazioni di Wind
 
 - **LLama.Common**: Utilizzato per l'integrazione con il modello di linguaggio. [Documentazione](https://scisharp.github.io/LLamaSharp/0.5/GetStarted/)
 - **LLama**: Libreria principale per l'esecuzione del modello di linguaggio. [Documentazione](https://scisharp.github.io/LLamaSharp/0.5/GetStarted/)
-- **TesseractPDF**: Utilizzato per l'OCR e l'estrazione del testo dalle immagini. [Documentazione](https://github.com/tesseract-ocr/tesseract)
+- **Tesseract**: Utilizzato per l'OCR e l'estrazione del testo dalle immagini. [Documentazione](https://github.com/tesseract-ocr/tesseract)
 
 
 ## Installazione
@@ -54,10 +54,10 @@ Per utilizzare il programma, è necessario configurare le seguenti variabili nel
  
 ## Utilizzo
 
-- **Cattura Immagine**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Immagine".
-- **Cattura Testo**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Testo".
-- **Cattura Testo+**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Testo+".
-- **Elabora Testo**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Elabora Testo".
+- **Cattura Immagine selezionata e salva negli Appunti**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Immagine".
+- **Cattura Testo selezionato e salva negli Appunti**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Testo".
+- **Cattura Testo selezionato ed aggiungi al testo già salvato negli Appunti**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Cattura Testo+".
+- **Cattura Testo selezionato ed apri una finestra per effettuare ulteriori elaborazioni**: Cliccare con il tasto destro sull'icona di AICapture nella barra delle applicazioni e selezionare "Elabora Testo".
 
 
 
