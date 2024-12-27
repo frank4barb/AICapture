@@ -10,6 +10,23 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace AICapture
 {
+    /**************
+   
+        // modello LLama da usare
+        private static LLMExecutor executor;
+
+            //init LLM
+            string modelPath = Context.Instance.GetString("#LLM_modelPath");
+            executor = new LLMExecutor(modelPath, 0.01f, 2048, 0); //string answer = executor.Ask("come ti chiami?");
+
+                //--Llama------
+                executor.StartSession(aiPrompt + "\r\n", aiAssistant);
+                executor.AskAsync(textBox.Text, textBox);               // scrivo la risposta nella textBox
+                //------------
+
+                executor.StopRespose();  //interrompe la scrittura della risposta
+
+    ***************/
     public class LLMExecutor
     {
         private List<string> AntiPrompts = new List<string> { "User:" };
