@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace TesseractPDF
+namespace AICapture
 {
     //classe SINGLETON 
     //eg: if ((param = Context.Instance.GetParam("#SecondlyJob")) != "") await ConfigureSecondlyJob(scheduler, param);
